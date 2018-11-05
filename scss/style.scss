@@ -1,0 +1,143 @@
+body {
+  padding: 2em;
+  background-color: #eee;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1.2em;
+  font-family: 'Poiret One';
+  font-weight: lighter;
+  font-size: 3em;
+
+  a:link,
+  a:visited {
+    color: #69c;
+    text-decoration: underline;
+  }
+
+  a:hover,
+  a:active {
+    color: #fff;
+    background: linear-gradient(89deg, #477db2, #98c2ec, #477db2);
+    background-size: 600% 600%;
+
+    -webkit-animation: linkbg 11s ease infinite;
+    -moz-animation: linkbg 11s ease infinite;
+    animation: linkbg 11s ease infinite;
+
+    @-webkit-keyframes linkbg {
+        0%{background-position:0% 51%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 51%}
+    }
+    @-moz-keyframes linkbg {
+        0%{background-position:0% 51%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 51%}
+    }
+    @keyframes linkbg {
+        0%{background-position:0% 51%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 51%}
+    }
+  }
+}
+
+form {
+  padding: 2em;
+  background-color: #fff;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.controls {
+  display: flex;
+
+  input {
+    width: 100%;
+    font-size: 22pt;
+    padding: 0 0 .5em 0;
+    border: none;
+    border-bottom: 1px solid #69c;
+  }
+
+  button {
+    background-color: #69c;
+    border: none;
+    color: #fff;
+    font-size: 22pt;
+    width: 2em;
+    height: 2em;
+    cursor: pointer;
+  }
+}
+
+.result {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+
+  .logo {
+    position: relative;
+    max-width: 20%;
+    max-height: 128px;
+    margin-top: 2em;
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  table {
+    margin: 2em 0;
+    width: 80%;
+    border: 1px solid #ddd;
+    border-width: 0 0 1px 1px;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    border-width: 1px 1px 0 0;
+    margin: 0;
+    padding: .3em .5em;
+    text-align: left;
+  }
+
+  .image {
+    max-width: 100%;
+    text-align: center;
+  }
+}
+
+
+.loading {
+  margin-top: 2em;
+  width: 100%;
+  line-height: 6em;
+  text-align: center;
+  background: linear-gradient(180deg, #f0d43e, #3ef0ab);
+  background-size: 400% 400%;
+
+  -webkit-animation: gradientbg 11s ease infinite;
+  -moz-animation: gradientbg 11s ease infinite;
+  animation: gradientbg 11s ease infinite;
+
+  @-webkit-keyframes gradientbg {
+      0%{background-position:50% 0%}
+      50%{background-position:51% 100%}
+      100%{background-position:50% 0%}
+  }
+  @-moz-keyframes gradientbg {
+      0%{background-position:50% 0%}
+      50%{background-position:51% 100%}
+      100%{background-position:50% 0%}
+  }
+  @keyframes gradientbg {
+      0%{background-position:50% 0%}
+      50%{background-position:51% 100%}
+      100%{background-position:50% 0%}
+  }
+}

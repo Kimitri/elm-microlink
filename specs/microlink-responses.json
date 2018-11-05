@@ -1,0 +1,67 @@
+[{
+  "status":"success",
+  "data": {
+    "lang":"fi",
+    "author":null,
+    "title":"Digitoimisto",
+    "publisher":"Karhu Helsinki Oy",
+    "image":null,
+    "description":"Olemme kaupungin sympaattisin digitoimisto. Rakennamme verkkosivuja ja digimarkkinointia, jotka kasvattavat asiakkaidemme myyntiä. Tykkäämme Drupalista.",
+    "date": "2018-10-30T17:00:00.000Z",
+    "logo": {
+      "url": "https://logo.clearbit.com/www.karhuhelsinki.fi?size=128&format=png",
+      "width": 128,
+      "height": 128,
+      "type": "png",
+      "size": 5612,
+      "size_pretty": "5.61 kB"
+    },
+    "url":"https://www.karhuhelsinki.fi"
+  }
+},
+
+
+{
+  "status":"success",
+  "data":{
+    "lang":"en",
+    "author":null,
+    "title":"Apple",
+    "publisher":"Apple",
+    "image":{
+      "url":"https://www.apple.com/ac/structured-data/images/open_graph_logo.png?201809210816",
+      "width":1200,
+      "height":630,
+      "type":"png",
+      "size":11847,
+      "size_pretty":"11.8 kB"
+    },
+    "description":"Discover the innovative world of Apple and shop everything iPhone, iPad, Apple Watch, Mac, and Apple TV, plus explore accessories, entertainment, and expert device support.",
+    "date":null,
+    "logo":{
+      "url":"https://logo.clearbit.com/www.apple.com?size=128&format=png",
+      "width":128,
+      "height":128,
+      "type":"png",
+      "size":2799,
+      "size_pretty":"2.8 kB"
+    },
+    "url":"https://www.apple.com"
+  }
+},
+
+
+{
+  "status":"success",
+  "data":{
+    "lang":null,
+    "author":null,
+    "title":null,
+    "publisher":null,
+    "image":null,
+    "description":null,
+    "date":null,
+    "logo":null,
+    "url":"https://www.plofp.di/"
+  }
+}]
